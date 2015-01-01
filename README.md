@@ -9,7 +9,7 @@ not been tested on Yosemite.
 
 Feel free to file issues for problems you may come accross, or submit a PR.
 
-# [Downloads]
+# Downloads
 Pre-built app packages available on [Sourceforge](https://sourceforge.net/projects/spritedecomposer)
 
 # License
