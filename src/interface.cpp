@@ -523,9 +523,9 @@ void Interface::picker_SetMaskColor()
 {
     if(ui->toolPicker->isEnabled() && !m_imageFilename.isEmpty())
     {
-        QByteArray  red = ui->picker_I_Color->text().mid(0,2).toAscii(),
-                green = ui->picker_I_Color->text().mid(2,2).toAscii(),
-                blue = ui->picker_I_Color->text().mid(4,2).toAscii();
+        QByteArray  red = ui->picker_I_Color->text().mid(0,2).toLatin1(),
+                green = ui->picker_I_Color->text().mid(2,2).toLatin1(),
+                blue = ui->picker_I_Color->text().mid(4,2).toLatin1();
         QColor color(red.toInt(0,16),green.toInt(0,16),blue.toInt(0,16));
         if(color.isValid())
         {
