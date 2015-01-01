@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui xml
+QT       += core gui xml widgets
 
 TARGET = SpriteDecomposer
 TEMPLATE = app
