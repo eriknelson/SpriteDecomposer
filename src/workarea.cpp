@@ -108,9 +108,9 @@ void WorkArea::mousePressEvent(QGraphicsSceneMouseEvent *event)
     isSelecting = false;
 
     // Prevent draw selection when cursor is on a cut
-    if(itemAt(position))
+    if(itemAt(position, QTransform()))
     {
-        QGraphicsObject *obj = itemAt(position)->toGraphicsObject();
+        QGraphicsObject *obj = itemAt(position, QTransform())->toGraphicsObject();
         if(obj && obj->inherits("Cut"))
         {
             // Select one cut
