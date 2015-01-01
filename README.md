@@ -1,6 +1,6 @@
 # Sprite Decomposer
 A Github hosted fork of [this upstream project](http://sourceforge.net/projects/spritedecompose/),
-originally developed by [Nicolas Smeets](http://www.creacore.be/blog/k).
+originally developed by [Nicolas Smeets](http://www.creacore.be/blog/).
 
 This project has been ported to use QT5, requiring minor source modification. The sourceforge
 hosted project seemingly does not run on OS X 10.9.x (Mavericks), and I assume it will fail to run
